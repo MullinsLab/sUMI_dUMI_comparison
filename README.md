@@ -1,14 +1,14 @@
-
-This is an early version of PORPIDpipeline that uses the sample ID and UMI of the sUMI
-primer for initial demultiplexing, QC and template identification. The "likely-real" families
-from UMI1 are then passed on for UMI2 identification and grouping using the dUMI primer sequence.
-The pipeline provides information on UMI combinations and frequency in the tagged directory as well as
-consensus sequences derived from all reads in a UMI1 collection (sUMI) or only the most 
-prevalent UMI1-UMI2 combination (dUMI).
-
-This pipeline was created to provide matched sUMI and dUMI datasets for the analysis in
-the manuscript "Optimized SMRT-UMI protocol produces highly accurate sequence datasets 
-from diverse populations – application to HIV-1 quasispecies" Westfall et al.
+This is an early version of PORPIDpipeline written for use with samples containing
+two UMIs (dUMI). It was originally created by Alec Pankow and then adapted by Dylan
+Westfall to provide matched sUMI and dUMI datasets for the analysis in the manuscript
+"Optimized SMRT-UMI protocol produces highly accurate sequence datasets from diverse
+populations – application to HIV-1 quasispecies" Westfall et al. It uses the sample
+ID and UMI of the sUMI primer for initial demultiplexing, QC and template
+identification. The "likely-real" families from UMI1 are then passed on for UMI2
+identification and grouping using the dUMI primer sequence. The pipeline provides
+information on UMI combinations and frequency in the tagged directory as well as
+consensus sequences derived from all reads in a UMI1 collection (sUMI) or only the
+most prevalent UMI1-UMI2 combination (dUMI).
 
 PORPIDpipeline
 https://github.com/MurrellGroup/PORPIDpipeline.git
