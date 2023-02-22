@@ -1,4 +1,4 @@
-configfile: "sUMI_dUMI_comparison_config.yaml"
+configfile: "example_config.yaml"
 DATASETS = [d for d in config for s in config[d]]
 TEMPLATES = [s for d in config for s in config[d]]
 
